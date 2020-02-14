@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css'; 
-import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button'; 
+import Nav from './components/Nav'
 import ECUHeader from './components/ECUHeader';
+import CommissionSummaryBanner from './components/CommissionSummaryBanner'; 
+import MonthlySummary from './components/MonthlySummary';
+import CommissionBar from './components/CommissionBar';
 
 class App extends Component {
     constructor(props) {
@@ -11,7 +13,11 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-               <ECUHeader />  
+                <ECUHeader />  
+                <Nav /> 
+                <CommissionSummaryBanner /> 
+                <MonthlySummary />
+                <CommissionBar />
             </div>
         );
     }

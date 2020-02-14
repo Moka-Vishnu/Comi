@@ -1,0 +1,14 @@
+.container {
+    text-align: left;
+    background-color: #336699;
+    color: #ffffff;
+    padding-left: 50px; 
+    padding-top: 10px;
+    padding-bottom:10px; 
+}
+
+.bar {
+    display: inline-block; 
+    width: 350px;
+    margin-left: 180px;  
+}

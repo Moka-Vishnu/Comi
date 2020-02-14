@@ -1,0 +1,29 @@
+th{
+    color: lightgrey;
+    font-size: 16px; 
+    border-bottom: 15px solid black; 
+}
+
+#head {
+    margin-left: 40px;
+    text-align: left;
+    color: #336699;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col1 {
+    text-align: left;
+}
+
+.col2 {
+    text-align: right;
+}
+
+.col3 {
+    text-align: right; 
+}
+
+.border{
+    border-bottom: 1px solid black; 
+}
